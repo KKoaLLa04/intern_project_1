@@ -1,0 +1,134 @@
+/*==========================BTN-BANNER================*/
+.custom-button {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 8px 10px;
+    /* cursor: pointer; */
+    border-radius:20px;
+    border: none;
+    /* outline: none; */
+    background-color: #EFEFEF;
+  }
+  .prev {
+    left: 160px;
+  }
+  
+  .next {
+    right: 160px;
+  }
+/*==========================BTN-BANNER================END*/ 
+
+/*==========================TRANSITION-EXAM================*/
+
+  .exam__item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .exam__item img {
+    /* width: 100%; */
+    /* height: auto; */
+    transition: transform 0.5s ;
+  }
+
+  .exam__item:hover img {
+    transform: scale(1.1);
+  }
+/*==========================TRANSITION-EXAM================END*/
+
+
+/*==========================TRANSITION-BOOK================*/
+  .book__item {
+    position: relative;
+    overflow: hidden;
+    /* transition: transform 0.5s; */
+  }
+
+  .book__item img {
+    /* width: 100%; */
+    /* height: auto; */
+    transition: transform 0.5s;
+
+  }
+
+  .book__item:hover img {
+    transform: scale(1.3); /* Hiệu ứng zoom khi di chuột qua */
+  }
+/*==========================TRANSITION-BOOK================END*/
+
+  /* ==============================BTN-BOOK=================================*/
+.btn-book {
+  background-color: #EFEFEF;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  /* cursor: pointer; */
+  outline: none;
+  /* transition: color 0.3s ease-in-out; */
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 10px;
+}
+
+.btn-book:hover {
+  color: #555555;
+}
+
+.book__content {
+  position: relative;
+}
+
+.prevbook {
+ left: -28px;
+}
+
+.nextbook {
+  right: -20px;
+}
+  /* ==============================BTN-BOOK=================================END*/
+
+/* ================================NEWS===============================*/
+.btn-news {
+  background-color: #EFEFEF;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  /* cursor: pointer; */
+  outline: none;
+  /* transition: color 0.3s ease-in-out; */
+  border-radius: 20px;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  padding: 8px 10px;
+}
+
+.information {
+  position: relative;
+}
+
+.btn-news {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.prevnews {
+  left: -28px;
+}
+
+.nextnews {
+  right: -28px;
+}
+/* ================================NEWS===============================END*/
+
+
+
+
+
+
+

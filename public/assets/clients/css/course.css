@@ -1,0 +1,471 @@
+/* -------------------------------------------------GLOBAL----------------------------------- */
+.reset{
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.active{
+    background-color: red;
+}
+
+.color__white{
+    color: white !important;
+    font-weight: 600;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.title__text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.title__button{
+    border: none;
+    color: #0883D2;
+}
+
+.top{
+    margin-top: 50px;
+}
+
+.check__all__a{
+    text-align: right;
+    text-decoration: none;
+}
+
+.check__all__p{
+    padding-top: 10px;
+}
+/* --------------------------------------------COURSE--------------------------------------------- */
+.course{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.course__content{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.course__content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course__content p:first-of-type{
+    padding-top: 10px;
+}
+
+.course__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course__padding{
+    padding: 10px;
+}
+
+.course__padding a{
+    text-decoration: none;
+}
+
+/* --------------------------------------------TRAINING--------------------------------------------- */
+.training{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.training__content{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.training__content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.training__content p:first-of-type{
+    padding-top: 10px;
+}
+
+.course__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.training__item{
+    padding: 10px;
+}
+
+/* --------------------------------------------TEST--------------------------------------------- */
+.test{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.test__content{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.test__content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.test__content p:first-of-type{
+    padding-top: 10px;
+}
+
+.course__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.test__item{
+    padding: 10px;
+}
+
+/* --------------------------------------------REFER--------------------------------------------- */
+.refer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.refer__content{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.refer__content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.refer__content p:first-of-type{
+    padding-top: 10px;
+}
+
+.course__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.refer__item{
+    padding: 10px;
+}
+
+/* --------------------------------------------TEXTBOOK--------------------------------------------- */
+.textbook{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.textbook__content{
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    transition: all 1s;
+}
+
+.textbook__content img{
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 40px;
+    height: 350px;
+}
+
+.textbook__content p:first-of-type{
+    padding-top: 0;
+}
+
+.textbook__content .add-to-cart{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: -24px;
+}
+
+.textbook__content:hover .add-to-cart{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 6px;
+    margin-top: 20px;
+    display: block;
+}
+
+.course__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbook__item{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------------------------ONLINE--------------------------------------------- */
+.online{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.online__content{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.online__content img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.online__content p:first-of-type{
+    padding-top: 0;
+}
+
+.course__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.online__item{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------------------------EXERCISE--------------------------------------------- */
+.exercise__left{
+    padding: 0;
+}
+
+.exercise__left ul{
+    list-style: none;
+    padding: 0;
+}
+
+.exercise__left ul li{
+    padding: 5px 10px;
+}
+
+.exercise__left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.exercise__right{
+    background-color: white;
+    padding: 20px;
+}
+
+.exercise__right h6{
+    color: red;
+    font-weight: bold;
+}
+
+.exercise__right a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --------------------------------------------DOCUMENT--------------------------------------------- */
+.document{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.document__content ul {
+    padding: 0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.document__content ul li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    padding: 10px 0;
+}
+
+.document__content ul li i{
+    color: red;
+    padding-right: 5px;
+}
+
+.document__content ul li a {
+    text-decoration: none;
+}
+
+.document__content ul li div a{
+    padding: 0 5px;
+    color: green;
+}
+
+/* --------------------------------------------AWARD--------------------------------------------- */
+.award{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.award__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__score{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.award__input{
+    height: 100%;
+    width: 250px;
+    padding: 0 10px;
+    border: 1px solid #EEEEEE;
+    margin-right: 20px;
+}
+
+.award__filter{
+    height: 100%;
+    width: 100px;
+    border: none;
+    background-color: #0883D2;
+    color: white;
+}
+
+.award__table tbody tr td{
+    padding: 25px 20px;
+}
+
+/* --------------------------------------------NEWS (module)--------------------------------------------- */
+.news__category ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.news__category ul li{
+     padding: 0 10px;
+}
+
+.news__category ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active__category{
+    background-color: red;
+    padding: 10px 20px;
+    color: #fff !important;
+    border-radius: 50px;
+}
+
+.news__text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.news__block img{
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+}
+
+.news__block h6{
+    padding-top: 10px;
+}
+
+/* --------------------------------------------INTRODUCE--------------------------------------------- */
+
+.introduce ul{
+    list-style: none;
+    padding: 0;
+}
+
+.introduce ul li {
+    padding: 5px 10px;
+}
+
+.introduce ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active__introduce{
+    background-color: #0673BA;
+}
+
+/* --------------------------------------------CONTACTS--------------------------------------------- */
+.title__contact{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.contact__information{
+    display: flex;
+    border-bottom: 1px solid red;
+}
+
+.contact__information div{
+    padding-left: 20px;
+}
+
+.contact__phone{
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid red;
+}
+
+.contact__phone img{
+    position: absolute;
+    top: 10px;
+}
+
+.contact__phone div{
+    padding-left: 50px;
+}
+
+.contact__email{
+    display: flex;
+    position: relative;
+}
+
+.contact__email img{
+    position: absolute;
+    top: 10px;
+}
+
+.contact__email div{
+    padding-left: 50px;
+}
+
+.contact__button{
+    display: flex;
+    justify-content: space-between;
+}

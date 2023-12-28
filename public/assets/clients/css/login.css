@@ -1,0 +1,41 @@
+/* -----------------------------------------GLOBAL---------------------------------------- */
+
+/* -----------------------------------------LOGIN----------------------------------------- */
+.login{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login__button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__button a{
+    padding: 15px 60px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.login__button a:first-of-type{
+    background-color: #3B5999;
+}
+
+.login__button a:last-of-type{
+    background-color: #DC4E41;
+}
+
+.login__button a i{
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.login__p::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+}
